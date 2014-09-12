@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="solutions.css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="http://www.bitstorm.org/jquery/color-animation/jquery.animate-colors-min.js"></script>
+
+		<!-- Begin MathJax -->
+		<script type="text/javascript"
+  			src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+			  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+			});
+		</script>
+		<script type="text/javascript" src="path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		<!-- End MathJax -->
+
+		<title>Itai David Hass</title>
+	</head>
+	<body>
+		<div id="preamble"></div>
+		<div id="mainBlock">
+		<div id="header"></div>
+			
+
+			<div class="mainText" id="solutions">
+				<h3>Increase Anki Latex Resolution</h3>
+
+
+<p>
+	<ol>
+		<li>Using the add-on code available in <a href="https://ankiweb.net/shared/info/937148547">Edit LaTeX and dvipng calls</a>, in Anki go to Tools -> Addons -> Browse and Install, and enter the code.</li>
+		<li>Restart Anki.</li>
+		<li>In Anki, go to Tools -> Addons -> Edit LaTeX and dvipng calls -> Edit, which will open a text file.</li>
+		<li>Change the numeral element of the array assingned to newDviPng from 200 (default) to 300, or a larger value. This determines the resolution of the rendered latex image.</li>
+	</ol>
+</p>
+
+				</div>
+			</div>
+
+		<script type="text/javascript" src="../javascript/globals.js"></script>
+		<script type="text/javascript" src="../javascript/solution.js"></script>
+		
+	
+	</body>
+</html>
