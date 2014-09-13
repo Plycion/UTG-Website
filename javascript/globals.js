@@ -1,1 +1,1 @@
-$("#header").html('<div id="header"><a href="http://individual.utoronto.ca/idh/" id="headering"><h1>UTG</h1></a><h2>// UofT\'s undergraduate theory group.</h2></div>');
+$("#header").html('<div id="header"><a href="http://www.cs.toronto.edu/~utg/" id="headering"><h1>UTG</h1></a><h2>// UofT\'s undergraduate theory group.</h2></div>');
