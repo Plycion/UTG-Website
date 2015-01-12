@@ -9,6 +9,11 @@
   font-style: normal;
 }
 
+.sm {
+  color: #0066CC;
+
+}
+
 
 @font-face {
   font-family: 'Computer Modern Serif';
@@ -90,6 +95,10 @@ body {
   font-size: 20px;
 }
 
+.desc {
+  font-size: 16px;
+}
+
 h1 {
   font-size: 70px;
   margin-top: 40px;
@@ -106,9 +115,10 @@ h3 {
     content: " -- "; }
 
 h4 {
+  font-size: 18px;
   text-align: left;
   padding: 20px 0 0 20px;
-  color: #a3d2f3; }
+  color: #3366CC; }
   h4:before {
     content: " -- "; }
   h4:after {
